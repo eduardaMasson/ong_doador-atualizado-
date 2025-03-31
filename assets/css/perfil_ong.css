@@ -209,6 +209,7 @@ header {
     background-color: var(--laranja);
     padding: 10px;
     margin-top: 50px;
+    padding-left: 30px
 }
 
 
@@ -250,6 +251,11 @@ button {
 .novo {
     background-color: #5bc0de;
 }
+
+.ajuste{
+    padding-left: 50px
+}
+
 
 
         /* Início - Rodapé */
@@ -381,7 +387,7 @@ footer {
     }
 
     .descricao {
-        max-width: 95%;
+        max-width: 100%;
         text-align: left;
         font-size: 15px;
     }
@@ -408,13 +414,29 @@ footer {
         gap: 10px;
     }
 
-    .ajuste {
-        padding-left: 8px;
-    }
-
     .botao {
         flex-direction: column;
         justify-content: center;
+    }
+    .but {
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+    .sair {
+        margin-left: 45px;
+    }
+    .respon {
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 81%;
+        display: block;
+        margin-left: 40px;
+    }
+    .margin_left {
+        margin-left: -10px;
+    }    
+    .laranja{
+        margin-left: -20px;
     }
 
     /* Fim - Rodapé */
@@ -515,12 +537,35 @@ footer {
     }
 
     .ajuste {
-        padding-left: 8px;
+        padding-left: 0%;
+        padding-right: 75px;
+        width: 200px;
     }
 
     .botao {
         flex-direction: column;
         justify-content: center;
+    }
+    .but {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .sair {
+        margin-left: 30px;
+    }
+    .respon {
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 18px;
+        padding-right: 35px;
+        display: block;
+    }
+    .margin_left {
+        margin-left: -20px;
+    }    
+    .laranja{
+        margin-left: -20px;
     }
 }
 
@@ -618,12 +663,34 @@ footer {
         gap: 8px;
     }
     .ajuste {
-        padding-left: 5px;
+        padding-left: 0%;
+        padding-right: 75px;
+        width: 200px;
     }
 
     .botao {
         flex-direction: column;
         justify-content: center;
     }
-    
+    .but {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .sair {
+        margin-left: 30px;
+    }
+    .respon {
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 6px;
+        padding-right: 0px;
+        display: block;
+    }
+    .margin_left {
+        margin-left: -20px;
+    }    
+    .laranja{
+        margin-left: -20px;
+    }
 }
